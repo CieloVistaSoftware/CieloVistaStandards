@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://cielovistasoftware.github.io/standards/doc-contract.schema.json",
+  "title": "CieloVista Doc Contract",
+  "description": "Front-matter schema for all .md docs in registered CieloVista projects",
+  "type": "object",
+  "required": ["subject", "id", "title", "project", "description", "status"],
+  "additionalProperties": true,
+  "properties": {
+    "subject": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+$",
+      "description": "Project prefix + subject sub-code, e.g. 150.3"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{1,48}[a-z0-9]$",
+      "description": "Stable identity slug — lowercase-kebab-case, 3-50 chars, never changes"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Human-readable document title"
+    },
+    "project": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Must match a name in project-registry.json"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "One-line description, 200 chars max"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "draft", "archived"],
+      "description": "Lifecycle status of the document"
+    },
+    "owner": {
+      "type": "string",
+      "description": "Optional author or team responsible for this doc"
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO 8601 date of last meaningful update"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Optional keyword tags for search and grouping"
+    },
+    "deprecated": {
+      "type": "boolean",
+      "description": "True if this doc is superseded and should not be followed"
+    }
+  }
+}

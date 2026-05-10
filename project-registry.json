@@ -1,0 +1,168 @@
+{
+  "globalDocsPath": "C:\\Users\\jwpmi\\Downloads\\CieloVistaStandards",
+  "globalDewey": 0,
+  "projects": [
+    {
+      "name": "vscode-claude",
+      "path": "C:\\dev\\vscode-claude",
+      "type": "vscode-extension",
+      "description": "VS Code extension that calls Claude API",
+      "status": "product",
+      "dewey": 100,
+      "githubUrl": "https://github.com/CieloVistaSoftware/vscode-claude"
+    },
+    {
+      "name": "cielovista-tools",
+      "path": "C:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\cielovista-tools",
+      "type": "vscode-extension",
+      "description": "CieloVista developer toolkit VS Code extension",
+      "status": "product",
+      "dewey": 150
+    },
+    {
+      "name": "wb-core",
+      "path": "C:\\dev\\wb-core",
+      "type": "component-library",
+      "description": "WB Framework web component library",
+      "status": "product",
+      "dewey": 200
+    },
+    {
+      "name": "DiskCleanUp",
+      "path": "C:\\Users\\jwpmi\\source\\repos\\DiskCleanUp",
+      "type": "dotnet-service",
+      "description": "ASP.NET Core disk cleanup dashboard with SignalR",
+      "status": "product",
+      "dewey": 300
+    },
+    {
+      "name": "SnapIt",
+      "path": "C:\\Users\\jwpmi\\source\\repos\\SnapIt",
+      "type": "app",
+      "description": "SnapIt application",
+      "status": "product",
+      "dewey": 400
+    },
+    {
+      "name": "ANeedToKnow",
+      "path": "C:\\Users\\jwpmi\\source\\repos\\ANeedToKnow",
+      "type": "app",
+      "description": "ANeedToKnow application",
+      "status": "product",
+      "dewey": 500
+    },
+    {
+      "name": "BrowserKeeper",
+      "path": "C:\\Users\\jwpmi\\source\\repos\\BrowserKeeper",
+      "type": "app",
+      "description": "BrowserKeeper application",
+      "status": "product",
+      "dewey": 600
+    },
+    {
+      "name": "ClaudeAIWebSiteBuilder",
+      "path": "C:\\Users\\jwpmi\\source\\repos\\ClaudeAIWebSiteBuilder",
+      "type": "app",
+      "description": "Claude AI website builder",
+      "status": "product",
+      "dewey": 700
+    },
+    {
+      "name": "VSCode-extensions",
+      "path": "C:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\extensions",
+      "type": "vscode-extension",
+      "description": "Individual VS Code extension source folders",
+      "status": "product",
+      "auditExcluded": true,
+      "dewey": 800
+    },
+    {
+      "name": "DrAlex",
+      "path": "c:\\Users\\jwpmi\\Downloads\\DrAlex",
+      "type": "app",
+      "description": "",
+      "status": "product",
+      "dewey": 900
+    },
+    {
+      "name": "ai",
+      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\ai",
+      "type": "app",
+      "description": "",
+      "status": "product",
+      "auditExcluded": true,
+      "dewey": 1000
+    },
+    {
+      "name": "company",
+      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\company",
+      "type": "app",
+      "description": "",
+      "status": "product",
+      "auditExcluded": true,
+      "dewey": 1100
+    },
+    {
+      "name": "language",
+      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\language",
+      "type": "app",
+      "description": "",
+      "status": "product",
+      "auditExcluded": true,
+      "dewey": 1200
+    },
+    {
+      "name": "protocols",
+      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\protocols",
+      "type": "app",
+      "description": "",
+      "status": "product",
+      "auditExcluded": true,
+      "dewey": 1300
+    },
+    {
+      "name": "samples",
+      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\samples",
+      "type": "app",
+      "description": "",
+      "status": "product",
+      "auditExcluded": true,
+      "dewey": 1400
+    },
+    {
+      "name": "settings",
+      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\settings",
+      "type": "app",
+      "description": "",
+      "status": "product",
+      "auditExcluded": true,
+      "dewey": 1500
+    },
+    {
+      "name": "tooling",
+      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\tooling",
+      "type": "app",
+      "description": "",
+      "status": "product",
+      "auditExcluded": true,
+      "dewey": 1600
+    },
+    {
+      "name": "templates",
+      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\templates",
+      "type": "app",
+      "description": "",
+      "status": "product",
+      "auditExcluded": true,
+      "dewey": 1700
+    },
+    {
+      "name": "JesusFamilyTree",
+      "path": "C:\\dev\\jesus-family-tree",
+      "type": "website",
+      "description": "Biblical genealogy visualization, standalone repo at github.com/CieloVistaSoftware/jesus-family-tree",
+      "status": "product",
+      "dewey": 1800
+    }
+  ]
+}

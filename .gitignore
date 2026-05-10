@@ -1,0 +1,10 @@
+# Generated audit/report output — not versioned
+reports/
+
+# Empty scaffolding directories
+path/
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,4 @@
+{
+  "_comment": "Maps old Dewey identifiers to new {subject}.{id} identifiers. Resolution checks here first. Never remove entries — old references must keep resolving.",
+  "aliases": {}
+}
