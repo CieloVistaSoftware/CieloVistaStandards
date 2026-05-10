@@ -34,3 +34,11 @@ Do not duplicate or redefine those rules here. If this file and `copilot-rules.m
 ## Scope
 
 These instructions apply to all tasks in this workspace.
+
+## Repository
+
+This standards directory is its own git repository:
+**https://github.com/CieloVistaSoftware/CieloVistaStandards**
+
+When modifying any standard, commit and push here so the change is
+versioned and visible across all projects.
