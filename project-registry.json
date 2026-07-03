@@ -29,6 +29,14 @@
       "githubUrl": "https://github.com/CieloVistaSoftware/wb-starter"
     },
     {
+      "name": "wb-core",
+      "path": "C:\\dev\\wb-core",
+      "type": "component-library",
+      "description": "WB Framework web component library (LEGACY — abandoned, superseded by wb-starter)",
+      "status": "archived",
+      "dewey": 200
+    },
+    {
       "name": "DiskCleanUp",
       "path": "C:\\Users\\jwpmi\\source\\repos\\DiskCleanUp",
       "type": "dotnet-service",
@@ -84,6 +92,78 @@
       "description": "",
       "status": "product",
       "dewey": 900
+    },
+    {
+      "name": "ai",
+      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\ai",
+      "type": "app",
+      "description": "Umbrella/taxonomy folder — not a product",
+      "status": "container",
+      "auditExcluded": true,
+      "dewey": 1000
+    },
+    {
+      "name": "company",
+      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\company",
+      "type": "app",
+      "description": "Umbrella/taxonomy folder — not a product",
+      "status": "container",
+      "auditExcluded": true,
+      "dewey": 1100
+    },
+    {
+      "name": "language",
+      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\language",
+      "type": "app",
+      "description": "Umbrella/taxonomy folder — not a product",
+      "status": "container",
+      "auditExcluded": true,
+      "dewey": 1200
+    },
+    {
+      "name": "protocols",
+      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\protocols",
+      "type": "app",
+      "description": "Umbrella/taxonomy folder — not a product",
+      "status": "container",
+      "auditExcluded": true,
+      "dewey": 1300
+    },
+    {
+      "name": "samples",
+      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\samples",
+      "type": "app",
+      "description": "Umbrella/taxonomy folder — not a product",
+      "status": "container",
+      "auditExcluded": true,
+      "dewey": 1400
+    },
+    {
+      "name": "settings",
+      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\settings",
+      "type": "app",
+      "description": "Umbrella/taxonomy folder — not a product",
+      "status": "container",
+      "auditExcluded": true,
+      "dewey": 1500
+    },
+    {
+      "name": "tooling",
+      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\tooling",
+      "type": "app",
+      "description": "Umbrella/taxonomy folder — not a product",
+      "status": "container",
+      "auditExcluded": true,
+      "dewey": 1600
+    },
+    {
+      "name": "templates",
+      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\templates",
+      "type": "app",
+      "description": "Umbrella/taxonomy folder — not a product",
+      "status": "container",
+      "auditExcluded": true,
+      "dewey": 1700
     },
     {
       "name": "JesusFamilyTree",
