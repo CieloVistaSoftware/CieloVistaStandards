@@ -20,12 +20,13 @@
       "dewey": 150
     },
     {
-      "name": "wb-core",
-      "path": "C:\\dev\\wb-core",
+      "name": "wb-starter",
+      "path": "C:\\Users\\jwpmi\\Downloads\\AI\\wb-starter",
       "type": "component-library",
-      "description": "WB Framework web component library",
+      "description": "WB Framework — schema-first, no-build web component library & site starter (canonical; supersedes wb-core)",
       "status": "product",
-      "dewey": 200
+      "dewey": 200,
+      "githubUrl": "https://github.com/CieloVistaSoftware/wb-starter"
     },
     {
       "name": "DiskCleanUp",
@@ -85,84 +86,20 @@
       "dewey": 900
     },
     {
-      "name": "ai",
-      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\ai",
-      "type": "app",
-      "description": "",
-      "status": "product",
-      "auditExcluded": true,
-      "dewey": 1000
-    },
-    {
-      "name": "company",
-      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\company",
-      "type": "app",
-      "description": "",
-      "status": "product",
-      "auditExcluded": true,
-      "dewey": 1100
-    },
-    {
-      "name": "language",
-      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\language",
-      "type": "app",
-      "description": "",
-      "status": "product",
-      "auditExcluded": true,
-      "dewey": 1200
-    },
-    {
-      "name": "protocols",
-      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\protocols",
-      "type": "app",
-      "description": "",
-      "status": "product",
-      "auditExcluded": true,
-      "dewey": 1300
-    },
-    {
-      "name": "samples",
-      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\samples",
-      "type": "app",
-      "description": "",
-      "status": "product",
-      "auditExcluded": true,
-      "dewey": 1400
-    },
-    {
-      "name": "settings",
-      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\settings",
-      "type": "app",
-      "description": "",
-      "status": "product",
-      "auditExcluded": true,
-      "dewey": 1500
-    },
-    {
-      "name": "tooling",
-      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\tooling",
-      "type": "app",
-      "description": "",
-      "status": "product",
-      "auditExcluded": true,
-      "dewey": 1600
-    },
-    {
-      "name": "templates",
-      "path": "c:\\Users\\jwpmi\\Downloads\\VSCode\\projects\\templates",
-      "type": "app",
-      "description": "",
-      "status": "product",
-      "auditExcluded": true,
-      "dewey": 1700
-    },
-    {
       "name": "JesusFamilyTree",
       "path": "C:\\dev\\jesus-family-tree",
       "type": "website",
       "description": "Biblical genealogy visualization, standalone repo at github.com/CieloVistaSoftware/jesus-family-tree",
       "status": "product",
       "dewey": 1800
+    },
+    {
+      "name": "pico-dataset",
+      "path": "C:\\Users\\jwpmi\\Downloads\\pico-dataset",
+      "type": "ai-training",
+      "description": "CieloVista AI training pipeline — pico-LLM (5M), GPT-2 fine-tune, CodeGen-350M fine-tune, Colab notebooks",
+      "status": "product",
+      "dewey": 1900
     }
   ]
 }
