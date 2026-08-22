@@ -180,6 +180,15 @@
       "description": "CieloVista AI training pipeline — pico-LLM (5M), GPT-2 fine-tune, CodeGen-350M fine-tune, Colab notebooks",
       "status": "product",
       "dewey": 1900
+    },
+    {
+      "name": "Ultrasonic",
+      "path": "C:\\Users\\jwpmi\\Downloads\\AI\\Ultrasonic",
+      "type": "website",
+      "description": "Ultrasonic — CieloVista site built on wb-starter (no-build, schema-first MVVM)",
+      "status": "product",
+      "dewey": 2000,
+      "githubUrl": "https://github.com/CieloVistaSoftware/Ultrasonic"
     }
   ]
 }
