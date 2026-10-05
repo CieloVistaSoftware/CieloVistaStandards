@@ -3,7 +3,7 @@ dewey: 000.4
 id: cielovista-ai-assistant-rules
 title: CieloVista AI Assistant Rules
 project: global
-description: - CVT = Cielo Vista tools project/folder - CVT path: C:\Users\jwpmi\Downloads\VSCode\projects\cielovista-tools
+description: '- CVT = Cielo Vista tools project/folder - CVT path: C:\Users\jwpmi\Downloads\VSCode\projects\cielovista-tools'
 status: active
 tags: [copilot, rules, cielovista]
 category: 800 — Global Standards

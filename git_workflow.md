@@ -3,7 +3,7 @@ dewey: 000.4
 id: git-workflow-standards
 title: Git Workflow Standards
 project: global
-description: Version: 1.2.0 Last Updated: 2025-09-13 Owner: DevOps Team Review Date: 2025-10-13
+description: 'Version: 1.2.0 Last Updated: 2025-09-13 Owner: DevOps Team Review Date: 2025-10-13'
 status: active
 tags: [git, workflow, standards]
 category: 800 — Global Standards

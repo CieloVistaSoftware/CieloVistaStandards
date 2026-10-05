@@ -3,7 +3,7 @@ dewey: 000.4
 id: cielovista-claude-instructions
 title: CieloVista Claude Instructions
 project: global
-description: Primary policy file: - ./copilot-rules.md Do not duplicate or redefine those rules here. If this file and copilot-rules.md appear to conflict, copi…
+description: 'Primary policy file: - ./copilot-rules.md Do not duplicate or redefine those rules here. If this file and copilot-rules.md appear to conflict, copi…'
 status: active
 tags: [claude, cielovista, instructions]
 category: 800 — Global Standards

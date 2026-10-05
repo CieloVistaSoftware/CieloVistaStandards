@@ -4,13 +4,13 @@
   "title": "CieloVista Doc Contract",
   "description": "Front-matter schema for all .md docs in registered CieloVista projects",
   "type": "object",
-  "required": ["subject", "id", "title", "project", "description", "status"],
+  "required": ["dewey", "id", "title", "project", "description", "status"],
   "additionalProperties": true,
   "properties": {
-    "subject": {
+    "dewey": {
       "type": "string",
       "pattern": "^\\d+\\.\\d+$",
-      "description": "Project prefix + subject sub-code, e.g. 150.3"
+      "description": "Project prefix + sub-code, e.g. 150.3 (legacy name: subject)"
     },
     "id": {
       "type": "string",

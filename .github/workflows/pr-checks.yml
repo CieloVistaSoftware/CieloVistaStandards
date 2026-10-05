@@ -45,3 +45,43 @@ jobs:
                   print(f"::error file={path}::{error}")
           print(f"{len(files)} JSON files checked, {failed} failed")
           sys.exit(1 if failed else 0)
+
+  # Every doc's front matter parses as YAML and matches doc-contract.schema.json. See issue #6.
+  front-matter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install PyYAML and jsonschema
+        run: pip install --quiet pyyaml jsonschema
+      - name: Validate front matter of every tracked .md file
+        shell: python
+        run: |
+          import json, re, subprocess, sys
+          import yaml, jsonschema
+          with open("doc-contract.schema.json", encoding="utf-8-sig") as handle:
+              validator = jsonschema.Draft7Validator(json.load(handle))
+          files = subprocess.run(["git", "ls-files", "*.md"], capture_output=True, text=True, check=True).stdout.split()
+          failed = 0
+          for path in files:
+              with open(path, encoding="utf-8-sig") as handle:
+                  text = handle.read()
+              match = re.match(r"---\r?\n(.*?)\r?\n---\r?\n", text, re.S)
+              if not match:
+                  errors = ["no front matter at the top of the file"]
+              else:
+                  try:
+                      # BaseLoader keeps every value a string, as the CieloVista tools read
+                      # front matter: safe_load would turn "dewey: 000.4" into the number 0.4.
+                      data = yaml.load(match.group(1), Loader=yaml.BaseLoader)
+                      errors = [f"{'/'.join(map(str, e.path)) or '(root)'}: {e.message}" for e in validator.iter_errors(data)]
+                  except yaml.YAMLError as error:
+                      errors = [f"front matter is not valid YAML: {error}".replace("\n", " ")]
+              if errors:
+                  failed += 1
+                  for message in errors:
+                      print(f"::error file={path}::{message}")
+              else:
+                  print(f"ok    {path}")
+          print(f"{len(files)} docs checked, {failed} failed")
+          sys.exit(1 if failed else 0)

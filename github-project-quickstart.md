@@ -3,7 +3,7 @@ dewey: 000.4
 id: github-project-quickstart
 title: GitHub Project Quickstart
 project: global
-description: Version: 1.1.0 Last Updated: 2026-04-23 Owner: CieloVista Software Location: C:\Users\jwpmi\Downloads\CieloVistaStandards\github-project-quickstart.md
+description: 'Version: 1.1.0 Last Updated: 2026-04-23 Owner: CieloVista Software Location: C:\Users\jwpmi\Downloads\CieloVistaStandards\github-project-quickstart.md'
 status: active
 tags: [github, project, quickstart]
 category: 800 — Global Standards

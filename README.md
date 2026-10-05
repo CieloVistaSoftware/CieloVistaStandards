@@ -1,6 +1,4 @@
-# README
-
-﻿---
+---
 dewey: 000.4
 id: cielovistastandards
 title: CieloVistaStandards

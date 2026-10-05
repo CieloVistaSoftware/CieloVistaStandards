@@ -19,9 +19,9 @@ It demonstrates all required and optional front-matter fields.
 ## What the contract requires
 
 Every `.md` doc in a registered project needs six front-matter fields:
-`subject`, `id`, `title`, `project`, `description`, and `status`.
+`dewey`, `id`, `title`, `project`, `description`, and `status`.
 
-The `subject` field combines the project's hundred-prefix with a subject sub-code
+The `dewey` field combines the project's hundred-prefix with a subject sub-code
 from the standardized taxonomy (e.g. `150.4` = cielovista-tools / Policy & Standards).
 
 The `id` field is a stable lowercase-kebab-case slug that never changes after assignment.
@@ -29,7 +29,7 @@ The `id` field is a stable lowercase-kebab-case slug that never changes after as
 ## Why stable identity matters
 
 Docs move. Folders get renamed. File paths are unreliable as long-term references.
-The `{subject}.{id}` pair (e.g. `150.4.doc-contract-standard`) is permanent —
+The `{dewey}.{id}` pair (e.g. `150.4.doc-contract-standard`) is permanent —
 it survives any reorganization and remains valid in bookmarks, cross-references, and tool output.
 
 ## Validator
