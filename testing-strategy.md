@@ -3,7 +3,7 @@ dewey: 000.3
 id: tiered-test-strategy-generic
 title: Tiered Test Strategy (Generic)
 project: global
-description: Testing proves correctness. NO GAPS ALLOWED. Every bug found MUST have: 1. Entry in bug registry ({project}/bug-registry.json or equivalent) 2. Reg…
+description: 'Testing proves correctness. NO GAPS ALLOWED. Every bug found MUST have: 1. Entry in bug registry ({project}/bug-registry.json or equivalent) 2. Reg…'
 status: active
 tags: [testing, strategy, tiered]
 category: 800 — Global Standards

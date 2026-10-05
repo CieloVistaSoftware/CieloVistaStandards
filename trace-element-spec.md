@@ -3,7 +3,7 @@ dewey: 000.4
 id: trace-element-component-specification
 title: Trace Element Component Specification
 project: global
-description: Version: 2.0.0 Last Updated: 2025-09-13 Owner: Frontend Architecture Team Review Date: 2025-10-13
+description: 'Version: 2.0.0 Last Updated: 2025-09-13 Owner: Frontend Architecture Team Review Date: 2025-10-13'
 status: active
 tags: [trace, element, spec]
 category: 800 — Global Standards

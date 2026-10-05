@@ -1,3 +1,14 @@
+---
+dewey: 000.6
+id: build-deploy-caching-rules
+title: Build & Deploy — Caching Rules
+project: global
+description: 'Caching and service-worker rules for deploying CieloVista web projects, so installed instances pick up new deploys.'
+status: active
+tags: [deploy, caching, service-worker]
+relativepath: build-deploy.md
+---
+
 # Build & Deploy — Caching Rules
 
 ## Why this doc exists

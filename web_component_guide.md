@@ -3,7 +3,7 @@ dewey: 000.4
 id: web-component-guide
 title: web component guide
 project: global
-description: Version: 3.0.0 Last Updated: 2026-04-02 Owner: Frontend Architecture Team Supersedes: v2.0.0 (class-inheritance / Shadow DOM pattern — do not use)
+description: 'Version: 3.0.0 Last Updated: 2026-04-02 Owner: Frontend Architecture Team Supersedes: v2.0.0 (class-inheritance / Shadow DOM pattern — do not use)'
 status: active
 tags: [web, component, guide]
 category: 800 — Global Standards

@@ -3,7 +3,7 @@ dewey: 000.4
 id: javascript-standards
 title: JavaScript Standards
 project: global
-description: Version: 1.3.0 Last Updated: 2025-09-13 Owner: Frontend Development Team Review Date: 2025-10-13
+description: 'Version: 1.3.0 Last Updated: 2025-09-13 Owner: Frontend Development Team Review Date: 2025-10-13'
 status: active
 tags: [javascript, standards, purpose]
 category: 800 — Global Standards
