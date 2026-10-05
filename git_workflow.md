@@ -15,7 +15,7 @@ relativepath: git_workflow.md
 ---
 # Git Workflow Standards
 
-**Version**: 1.3.0  
+**Version**: 1.3.1  
 **Last Updated**: 2026-10-05  
 **Owner**: DevOps Team  
 **Review Date**: 2025-10-13
@@ -361,11 +361,10 @@ required_status_checks:
   - lint-css
   - security-scan
 
-required_reviews: 2
-dismiss_stale_reviews: true
-require_code_owner_reviews: true
 restrict_pushes: true
 ```
+
+No required approving reviews: the status checks gate the merge (see "Who Merges").
 
 ## Git Configuration
 
@@ -521,6 +520,7 @@ git reset --hard HEAD~1
 
 ## Changelog
 
+- **v1.3.1** (2026-10-05): Protection rules no longer require approving reviews; the status checks gate the merge
 - **v1.3.0** (2026-10-05): Added "Who Merges": Claude merges its own PRs once CI is green
 - **v1.2.0** (2025-09-13): Added hotfix workflow, updated commit message standards
 - **v1.1.0** (2025-08-15): Enhanced PR template and review guidelines  
