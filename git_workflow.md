@@ -8,15 +8,15 @@ status: active
 tags: [git, workflow, standards]
 category: 800 — Global Standards
 created: 2025-09-13
-updated: 2026-04-27
+updated: 2026-10-05
 version: 1.0.0
 author: CieloVista Software
 relativepath: git_workflow.md
 ---
 # Git Workflow Standards
 
-**Version**: 1.2.0  
-**Last Updated**: 2025-09-13  
+**Version**: 1.3.0  
+**Last Updated**: 2026-10-05  
 **Owner**: DevOps Team  
 **Review Date**: 2025-10-13
 
@@ -338,6 +338,19 @@ I'm wondering if there's a simpler way."
   - Linear history
   - Use when branch has few, well-crafted commits
 
+#### Who Merges
+
+The tests decide, not a person (John, 2026-10-05: "don't wait on me to merge, rather
+allow tests to tell you").
+
+- When a PR Claude opened has all CI checks green and no merge conflict, Claude marks
+  it ready and merges it, without waiting for John.
+- Use the repo's own merge style (squash in cielovista-tools, a merge commit in
+  wb-starter).
+- CI red → fix it and push, then merge once green. Never skip or disable a test to
+  get there.
+- Hold off only while a reviewer's requested changes are still unaddressed.
+
 #### Protection Rules
 ```yaml
 # main branch protection
@@ -508,6 +521,7 @@ git reset --hard HEAD~1
 
 ## Changelog
 
+- **v1.3.0** (2026-10-05): Added "Who Merges": Claude merges its own PRs once CI is green
 - **v1.2.0** (2025-09-13): Added hotfix workflow, updated commit message standards
 - **v1.1.0** (2025-08-15): Enhanced PR template and review guidelines  
 - **v1.0.0** (2025-07-01): Initial Git workflow standards
