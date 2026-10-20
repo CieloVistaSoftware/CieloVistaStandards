@@ -136,7 +136,7 @@ export default mybehavior;
 - Read config from `options` first, fall back to `element.dataset.*`
 - Never attach Shadow DOM
 - Never use `class MyBehavior extends HTMLElement`
-- Never use `customElements.define()` for behaviors (only for structural layout elements like `wb-grid`, `wb-stack`)
+- Never use `customElements.define()` for behaviors
 
 ---
 
@@ -283,21 +283,11 @@ To opt an element out of auto-injection:
 
 ---
 
-## Layout Components (True Custom Elements)
+## Layout
 
-A small set of structural layout components ARE registered as real custom elements using `customElements.define()`. These are not behaviors—they are structural containers:
+Layout is done with behaviors like everything else: `x-container`, `x-grid`, `x-flex`, `x-stack`, `x-cluster`, `x-center` and `x-sidebarlayout` (`src/wb-viewmodels/layouts.js` in wb-starter). There are no layout custom elements; the `<wb-grid>`, `<wb-stack>`, `<wb-row>`, `<wb-column>` and `<wb-cluster>` tags this section used to list were never built.
 
-| Tag | Purpose |
-|---|---|
-| `<wb-grid>` | CSS grid layout wrapper |
-| `<wb-stack>` | Vertical stack layout |
-| `<wb-row>` | Horizontal row layout |
-| `<wb-column>` | Column layout |
-| `<wb-cluster>` | Flexible cluster/wrap layout |
-| `<wb-demo>` | Live code demo with markup preview |
-| `<wb-search>` | Search input with behavior |
-
-These use `class X extends HTMLElement` only because they need custom element lifecycle for structural reasons. All other components are behaviors.
+The spacing, colour and phone-width rules every page follows are in the [Layout and Theming Standard](./layout-and-theming.md).
 
 ---
 
@@ -337,6 +327,7 @@ npm run test:headed    # headed browser
 - [JavaScript Standards](./javascript_standards.md)
 - [Copilot Rules](./copilot-rules.md)
 - [Git Workflow](./git_workflow.md)
+- [Layout and Theming Standard](./layout-and-theming.md)
 - [WB Framework README](C:\dev\wb-core\README.md)
 - [Tag Map](C:\dev\wb-core\core\tag-map.js) — all registered tags and behaviors
 
